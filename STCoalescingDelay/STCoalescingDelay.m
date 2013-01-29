@@ -1,6 +1,6 @@
 //
-//  STWatchdog.m
-//  STWatchdog
+//  STCoalescingDelay.m
+//  STCoalescingDelay
 //
 //  This Source Code Form is subject to the terms of the Mozilla Public
 //  License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -9,21 +9,21 @@
 //  Copyright (c) 2013 Scott Talbot. All rights reserved.
 //
 
-#import "STWatchdog.h"
+#import "STCoalescingDelay.h"
 
 
 uint64_t const kTimerLeeway = 50 * NSEC_PER_MSEC;
 
 
-@implementation STWatchdog {
+@implementation STCoalescingDelay {
 @private
 	int64_t _delay;
-	dispatch_source_t _sourceDelay;
 	int64_t _maximumDelay;
-	BOOL _armed;
+	dispatch_source_t _sourceDelay;
 	dispatch_source_t _sourceMaximumDelay;
 	dispatch_source_t _source;
 	dispatch_block_t _block;
+	BOOL _armed;
 }
 
 - (id)initWithDelay:(NSTimeInterval)delay maximumDelay:(NSTimeInterval)maximumDelay block:(dispatch_block_t)block {
@@ -94,7 +94,7 @@ uint64_t const kTimerLeeway = 50 * NSEC_PER_MSEC;
 #endif
 }
 
-- (void)kick {
+- (void)trigger {
 	NSAssert([NSThread isMainThread], @"not on main thread", nil);
 
 	if (!_armed) {

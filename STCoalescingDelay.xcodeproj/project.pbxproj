@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2CA22BF016B7EFBB001EB2CC /* STWatchdog.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CA22BEF16B7EFBB001EB2CC /* STWatchdog.m */; };
-		2CA22C0916B7F4B3001EB2CC /* STWatchdog.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CA22BEF16B7EFBB001EB2CC /* STWatchdog.m */; };
+		2CA22BF016B7EFBB001EB2CC /* STCoalescingDelay.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CA22BEF16B7EFBB001EB2CC /* STCoalescingDelay.m */; };
+		2CA22C0916B7F4B3001EB2CC /* STCoalescingDelay.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CA22BEF16B7EFBB001EB2CC /* STCoalescingDelay.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,11 +24,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		2CA22BDE16B7EFBB001EB2CC /* STWatchdog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = STWatchdog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CA22BDE16B7EFBB001EB2CC /* STCoalescingDelay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = STCoalescingDelay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CA22BE916B7EFBB001EB2CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2CA22BEE16B7EFBB001EB2CC /* STWatchdog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STWatchdog.h; sourceTree = "<group>"; };
-		2CA22BEF16B7EFBB001EB2CC /* STWatchdog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STWatchdog.m; sourceTree = "<group>"; };
-		2CA22BFB16B7F49F001EB2CC /* libSTWatchdog.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSTWatchdog.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CA22BEE16B7EFBB001EB2CC /* STCoalescingDelay.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STCoalescingDelay.h; sourceTree = "<group>"; };
+		2CA22BEF16B7EFBB001EB2CC /* STCoalescingDelay.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STCoalescingDelay.m; sourceTree = "<group>"; };
+		2CA22BFB16B7F49F001EB2CC /* libSTCoalescingDelay.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSTCoalescingDelay.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +52,7 @@
 		2CA22BD416B7EFBB001EB2CC = {
 			isa = PBXGroup;
 			children = (
-				2CA22BE716B7EFBB001EB2CC /* STWatchdog */,
+				2CA22BE716B7EFBB001EB2CC /* STCoalescingDelay */,
 				2CA22BDF16B7EFBB001EB2CC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -60,20 +60,20 @@
 		2CA22BDF16B7EFBB001EB2CC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2CA22BDE16B7EFBB001EB2CC /* STWatchdog.framework */,
-				2CA22BFB16B7F49F001EB2CC /* libSTWatchdog.a */,
+				2CA22BDE16B7EFBB001EB2CC /* STCoalescingDelay.framework */,
+				2CA22BFB16B7F49F001EB2CC /* libSTCoalescingDelay.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2CA22BE716B7EFBB001EB2CC /* STWatchdog */ = {
+		2CA22BE716B7EFBB001EB2CC /* STCoalescingDelay */ = {
 			isa = PBXGroup;
 			children = (
 				2CA22BE916B7EFBB001EB2CC /* Info.plist */,
-				2CA22BEE16B7EFBB001EB2CC /* STWatchdog.h */,
-				2CA22BEF16B7EFBB001EB2CC /* STWatchdog.m */,
+				2CA22BEE16B7EFBB001EB2CC /* STCoalescingDelay.h */,
+				2CA22BEF16B7EFBB001EB2CC /* STCoalescingDelay.m */,
 			);
-			path = STWatchdog;
+			path = STCoalescingDelay;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -89,9 +89,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		2CA22BDD16B7EFBB001EB2CC /* STWatchdog-mac */ = {
+		2CA22BDD16B7EFBB001EB2CC /* STCoalescingDelay-mac */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2CA22BF316B7EFBB001EB2CC /* Build configuration list for PBXNativeTarget "STWatchdog-mac" */;
+			buildConfigurationList = 2CA22BF316B7EFBB001EB2CC /* Build configuration list for PBXNativeTarget "STCoalescingDelay-mac" */;
 			buildPhases = (
 				2CA22BD916B7EFBB001EB2CC /* Sources */,
 				2CA22BDA16B7EFBB001EB2CC /* Frameworks */,
@@ -102,14 +102,14 @@
 			);
 			dependencies = (
 			);
-			name = "STWatchdog-mac";
-			productName = STWatchdog;
-			productReference = 2CA22BDE16B7EFBB001EB2CC /* STWatchdog.framework */;
+			name = "STCoalescingDelay-mac";
+			productName = STCoalescingDelay;
+			productReference = 2CA22BDE16B7EFBB001EB2CC /* STCoalescingDelay.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		2CA22BFA16B7F49F001EB2CC /* STWatchdog-ios */ = {
+		2CA22BFA16B7F49F001EB2CC /* STCoalescingDelay-ios */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2CA22C0616B7F49F001EB2CC /* Build configuration list for PBXNativeTarget "STWatchdog-ios" */;
+			buildConfigurationList = 2CA22C0616B7F49F001EB2CC /* Build configuration list for PBXNativeTarget "STCoalescingDelay-ios" */;
 			buildPhases = (
 				2CA22BF716B7F49F001EB2CC /* Sources */,
 				2CA22BF816B7F49F001EB2CC /* Frameworks */,
@@ -119,9 +119,9 @@
 			);
 			dependencies = (
 			);
-			name = "STWatchdog-ios";
-			productName = "STWatchdog-ios";
-			productReference = 2CA22BFB16B7F49F001EB2CC /* libSTWatchdog.a */;
+			name = "STCoalescingDelay-ios";
+			productName = "STCoalescingDelay-ios";
+			productReference = 2CA22BFB16B7F49F001EB2CC /* libSTCoalescingDelay.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -133,7 +133,7 @@
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Scott Talbot";
 			};
-			buildConfigurationList = 2CA22BD816B7EFBB001EB2CC /* Build configuration list for PBXProject "STWatchdog" */;
+			buildConfigurationList = 2CA22BD816B7EFBB001EB2CC /* Build configuration list for PBXProject "STCoalescingDelay" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -145,8 +145,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2CA22BDD16B7EFBB001EB2CC /* STWatchdog-mac */,
-				2CA22BFA16B7F49F001EB2CC /* STWatchdog-ios */,
+				2CA22BDD16B7EFBB001EB2CC /* STCoalescingDelay-mac */,
+				2CA22BFA16B7F49F001EB2CC /* STCoalescingDelay-ios */,
 			);
 		};
 /* End PBXProject section */
@@ -166,7 +166,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2CA22BF016B7EFBB001EB2CC /* STWatchdog.m in Sources */,
+				2CA22BF016B7EFBB001EB2CC /* STCoalescingDelay.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,7 +174,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2CA22C0916B7F4B3001EB2CC /* STWatchdog.m in Sources */,
+				2CA22C0916B7F4B3001EB2CC /* STCoalescingDelay.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,8 +266,8 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = STWatchdog/Info.plist;
-				PRODUCT_NAME = STWatchdog;
+				INFOPLIST_FILE = STCoalescingDelay/Info.plist;
+				PRODUCT_NAME = STCoalescingDelay;
 				SDKROOT = macosx;
 				WRAPPER_EXTENSION = framework;
 			};
@@ -281,8 +281,8 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = STWatchdog/Info.plist;
-				PRODUCT_NAME = STWatchdog;
+				INFOPLIST_FILE = STCoalescingDelay/Info.plist;
+				PRODUCT_NAME = STCoalescingDelay;
 				SDKROOT = macosx;
 				WRAPPER_EXTENSION = framework;
 			};
@@ -291,10 +291,10 @@
 		2CA22C0716B7F49F001EB2CC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				DSTROOT = /tmp/STWatchdog_ios.dst;
+				DSTROOT = /tmp/STCoalescingDelay_ios.dst;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = STWatchdog;
+				PRODUCT_NAME = STCoalescingDelay;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
@@ -303,10 +303,10 @@
 		2CA22C0816B7F49F001EB2CC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				DSTROOT = /tmp/STWatchdog_ios.dst;
+				DSTROOT = /tmp/STCoalescingDelay_ios.dst;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = STWatchdog;
+				PRODUCT_NAME = STCoalescingDelay;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				VALIDATE_PRODUCT = YES;
@@ -316,7 +316,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2CA22BD816B7EFBB001EB2CC /* Build configuration list for PBXProject "STWatchdog" */ = {
+		2CA22BD816B7EFBB001EB2CC /* Build configuration list for PBXProject "STCoalescingDelay" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2CA22BF116B7EFBB001EB2CC /* Debug */,
@@ -325,7 +325,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2CA22BF316B7EFBB001EB2CC /* Build configuration list for PBXNativeTarget "STWatchdog-mac" */ = {
+		2CA22BF316B7EFBB001EB2CC /* Build configuration list for PBXNativeTarget "STCoalescingDelay-mac" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2CA22BF416B7EFBB001EB2CC /* Debug */,
@@ -334,7 +334,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2CA22C0616B7F49F001EB2CC /* Build configuration list for PBXNativeTarget "STWatchdog-ios" */ = {
+		2CA22C0616B7F49F001EB2CC /* Build configuration list for PBXNativeTarget "STCoalescingDelay-ios" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2CA22C0716B7F49F001EB2CC /* Debug */,

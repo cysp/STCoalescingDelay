@@ -1,6 +1,6 @@
 //
-//  STWatchdog.h
-//  STWatchdog
+//  STCoalescingDelay.h
+//  STCoalescingDelay
 //
 //  This Source Code Form is subject to the terms of the Mozilla Public
 //  License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -12,10 +12,10 @@
 #import <Foundation/Foundation.h>
 
 
-@interface STWatchdog : NSObject
+@interface STCoalescingDelay : NSObject
 
 - (id)initWithDelay:(NSTimeInterval)delay maximumDelay:(NSTimeInterval)maximumDelay block:(dispatch_block_t)block;
 
-- (void)kick;
+- (void)trigger;
 
 @end
