@@ -9,7 +9,24 @@
 /* Begin PBXBuildFile section */
 		2CA22BF016B7EFBB001EB2CC /* STCoalescingDelay.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CA22BEF16B7EFBB001EB2CC /* STCoalescingDelay.m */; };
 		2CA22C0916B7F4B3001EB2CC /* STCoalescingDelay.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CA22BEF16B7EFBB001EB2CC /* STCoalescingDelay.m */; };
+		2CA22C1016B7F562001EB2CC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CA22C0F16B7F562001EB2CC /* UIKit.framework */; };
+		2CA22C1116B7F562001EB2CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CA22BFD16B7F49F001EB2CC /* Foundation.framework */; };
+		2CA22C1316B7F562001EB2CC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CA22C1216B7F562001EB2CC /* CoreGraphics.framework */; };
+		2CA22C1B16B7F562001EB2CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CA22C1A16B7F562001EB2CC /* main.m */; };
+		2CA22C1F16B7F562001EB2CC /* STCoalescingDelayDemoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CA22C1E16B7F562001EB2CC /* STCoalescingDelayDemoAppDelegate.m */; };
+		2CA22C2816B7F562001EB2CC /* STCoalescingDelayDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CA22C2716B7F562001EB2CC /* STCoalescingDelayDemoViewController.m */; };
+		2CA22C3116B7F67E001EB2CC /* libSTCoalescingDelay.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CA22BFB16B7F49F001EB2CC /* libSTCoalescingDelay.a */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2CA22C2F16B7F679001EB2CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2CA22BD516B7EFBB001EB2CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CA22BFA16B7F49F001EB2CC;
+			remoteInfo = "STCoalescingDelay-ios";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		2CA22BF916B7F49F001EB2CC /* CopyFiles */ = {
@@ -29,6 +46,16 @@
 		2CA22BEE16B7EFBB001EB2CC /* STCoalescingDelay.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STCoalescingDelay.h; sourceTree = "<group>"; };
 		2CA22BEF16B7EFBB001EB2CC /* STCoalescingDelay.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STCoalescingDelay.m; sourceTree = "<group>"; };
 		2CA22BFB16B7F49F001EB2CC /* libSTCoalescingDelay.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSTCoalescingDelay.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CA22BFD16B7F49F001EB2CC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2CA22C0E16B7F562001EB2CC /* STCoalescingDelayDemo-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "STCoalescingDelayDemo-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CA22C0F16B7F562001EB2CC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		2CA22C1216B7F562001EB2CC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		2CA22C1616B7F562001EB2CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CA22C1A16B7F562001EB2CC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2CA22C1D16B7F562001EB2CC /* STCoalescingDelayDemoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STCoalescingDelayDemoAppDelegate.h; sourceTree = "<group>"; };
+		2CA22C1E16B7F562001EB2CC /* STCoalescingDelayDemoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STCoalescingDelayDemoAppDelegate.m; sourceTree = "<group>"; };
+		2CA22C2616B7F562001EB2CC /* STCoalescingDelayDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STCoalescingDelayDemoViewController.h; sourceTree = "<group>"; };
+		2CA22C2716B7F562001EB2CC /* STCoalescingDelayDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STCoalescingDelayDemoViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +73,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2CA22C0B16B7F562001EB2CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CA22C1116B7F562001EB2CC /* Foundation.framework in Frameworks */,
+				2CA22C1316B7F562001EB2CC /* CoreGraphics.framework in Frameworks */,
+				2CA22C1016B7F562001EB2CC /* UIKit.framework in Frameworks */,
+				2CA22C3116B7F67E001EB2CC /* libSTCoalescingDelay.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -53,6 +91,8 @@
 			isa = PBXGroup;
 			children = (
 				2CA22BE716B7EFBB001EB2CC /* STCoalescingDelay */,
+				2CA22C1416B7F562001EB2CC /* STCoalescingDelay-ios */,
+				2CA22BFC16B7F49F001EB2CC /* Frameworks */,
 				2CA22BDF16B7EFBB001EB2CC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -62,6 +102,7 @@
 			children = (
 				2CA22BDE16B7EFBB001EB2CC /* STCoalescingDelay.framework */,
 				2CA22BFB16B7F49F001EB2CC /* libSTCoalescingDelay.a */,
+				2CA22C0E16B7F562001EB2CC /* STCoalescingDelayDemo-ios.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -74,6 +115,30 @@
 				2CA22BEF16B7EFBB001EB2CC /* STCoalescingDelay.m */,
 			);
 			path = STCoalescingDelay;
+			sourceTree = "<group>";
+		};
+		2CA22BFC16B7F49F001EB2CC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2CA22BFD16B7F49F001EB2CC /* Foundation.framework */,
+				2CA22C1216B7F562001EB2CC /* CoreGraphics.framework */,
+				2CA22C0F16B7F562001EB2CC /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2CA22C1416B7F562001EB2CC /* STCoalescingDelay-ios */ = {
+			isa = PBXGroup;
+			children = (
+				2CA22C1616B7F562001EB2CC /* Info.plist */,
+				2CA22C1A16B7F562001EB2CC /* main.m */,
+				2CA22C1D16B7F562001EB2CC /* STCoalescingDelayDemoAppDelegate.h */,
+				2CA22C1E16B7F562001EB2CC /* STCoalescingDelayDemoAppDelegate.m */,
+				2CA22C2616B7F562001EB2CC /* STCoalescingDelayDemoViewController.h */,
+				2CA22C2716B7F562001EB2CC /* STCoalescingDelayDemoViewController.m */,
+			);
+			name = "STCoalescingDelay-ios";
+			path = "STCoalescingDelayDemo-ios";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +189,24 @@
 			productReference = 2CA22BFB16B7F49F001EB2CC /* libSTCoalescingDelay.a */;
 			productType = "com.apple.product-type.library.static";
 		};
+		2CA22C0D16B7F562001EB2CC /* STCoalescingDelayDemo-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CA22C2C16B7F562001EB2CC /* Build configuration list for PBXNativeTarget "STCoalescingDelayDemo-ios" */;
+			buildPhases = (
+				2CA22C0A16B7F562001EB2CC /* Sources */,
+				2CA22C0B16B7F562001EB2CC /* Frameworks */,
+				2CA22C0C16B7F562001EB2CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2CA22C3016B7F679001EB2CC /* PBXTargetDependency */,
+			);
+			name = "STCoalescingDelayDemo-ios";
+			productName = "STCoalescingDelayDemo-ios";
+			productReference = 2CA22C0E16B7F562001EB2CC /* STCoalescingDelayDemo-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -147,12 +230,20 @@
 			targets = (
 				2CA22BDD16B7EFBB001EB2CC /* STCoalescingDelay-mac */,
 				2CA22BFA16B7F49F001EB2CC /* STCoalescingDelay-ios */,
+				2CA22C0D16B7F562001EB2CC /* STCoalescingDelayDemo-ios */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		2CA22BDC16B7EFBB001EB2CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CA22C0C16B7F562001EB2CC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -178,7 +269,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2CA22C0A16B7F562001EB2CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CA22C1B16B7F562001EB2CC /* main.m in Sources */,
+				2CA22C1F16B7F562001EB2CC /* STCoalescingDelayDemoAppDelegate.m in Sources */,
+				2CA22C2816B7F562001EB2CC /* STCoalescingDelayDemoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2CA22C3016B7F679001EB2CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2CA22BFA16B7F49F001EB2CC /* STCoalescingDelay-ios */;
+			targetProxy = 2CA22C2F16B7F679001EB2CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		2CA22BF116B7EFBB001EB2CC /* Debug */ = {
@@ -313,6 +422,42 @@
 			};
 			name = Release;
 		};
+		2CA22C2D16B7F562001EB2CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				INFOPLIST_FILE = "STCoalescingDelayDemo-ios/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2CA22C2E16B7F562001EB2CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				INFOPLIST_FILE = "STCoalescingDelayDemo-ios/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -339,6 +484,15 @@
 			buildConfigurations = (
 				2CA22C0716B7F49F001EB2CC /* Debug */,
 				2CA22C0816B7F49F001EB2CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CA22C2C16B7F562001EB2CC /* Build configuration list for PBXNativeTarget "STCoalescingDelayDemo-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CA22C2D16B7F562001EB2CC /* Debug */,
+				2CA22C2E16B7F562001EB2CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
